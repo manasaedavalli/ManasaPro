@@ -1,0 +1,50 @@
+INTRODUCTION:
+
+MEAN stack-sampling technology
+
+MEAN stack is collection of javascript based technologies used to develop web applications. 
+MEAN is an acronym for MangoDB ExpressJS, AngularJS and NodeJS MEAN stack is ful stack javascript from cient to server database.
+
+PREREQUISITES:
+
+To develop the application we require NodeJS, javascript execution environment, expressJS framework, MangoDB, AngularJS, text editor, GIT, we need to instal several pacakges like Express, bower, angular.
+
+PROCEDURE:
+
+To work with MEAN stack development we need to install above softwares.
+
+working with MEAN stack:
+
+create a new folder in C drive.
+name it as manasa
+open command promt. go to directory which we have created above
+ type command " express projectname" 
+you will get directory structure of Express framework 
+install dependencies 
+type command " npm install"
+now create a new directory name"data"
+now type the command "npm start"
+
+connecting to database:
+open command prompt and go to the following directory 
+"C:\Program Files\MongoDB\Server\3.2\bin"
+
+type the command "mongod --dbpath C:\manasa\projectname\data\" hit enter
+now open new command prompt go to following directory
+"C:\Program Files\MongoDB\Server\3.2\bin"
+the database server instance will get started 
+
+creating database:
+use databasename
+now you have created database
+creating table:
+lets add a record type the query as below
+db.tablename.insert({"username":"manasa1","email":"manasa1@manasa.com})
+your data is inserted into table.
+now start go to command prompt, go to C:\manasa\projectname npmstart
+now open your browser and head to http://localhost:3000/helloworld
+now result will be displayed in browser.
+
+
+
+
